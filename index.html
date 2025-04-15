@@ -1,88 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>The Dangers of Scanning Unknown QR Codes</title>
-                <style>
-                        body {
-                                    font-family: Arial, sans-serif;
-                                                line-height: 1.6;
-                                                            margin: 0;
-                                                                        padding: 0;
-                                                                                    background-color: #f4f4f9;
-                                                                                                color: #333;
-                                                                                                        }
-                                                                                                                header {
-                                                                                                                            background-color: #333;
-                                                                                                                                        color: #fff;
-                                                                                                                                                    padding: 10px 15px;
-                                                                                                                                                                text-align: center;
-                                                                                                                                                                        }
-                                                                                                                                                                                section {
-                                                                                                                                                                                            max-width: 800px;
-                                                                                                                                                                                                        margin: 20px auto;
-                                                                                                                                                                                                                    padding: 20px;
-                                                                                                                                                                                                                                background: #fff;
-                                                                                                                                                                                                                                            border-radius: 8px;
-                                                                                                                                                                                                                                                        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                        h1, h2 {
-                                                                                                                                                                                                                                                                                    color: #444;
-                                                                                                                                                                                                                                                                                            }
-                                                                                                                                                                                                                                                                                                    a {
-                                                                                                                                                                                                                                                                                                                color: #1e90ff;
-                                                                                                                                                                                                                                                                                                                            text-decoration: none;
-                                                                                                                                                                                                                                                                                                                                    }
-                                                                                                                                                                                                                                                                                                                                            a:hover {
-                                                                                                                                                                                                                                                                                                                                                        text-decoration: underline;
-                                                                                                                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                                                                                                                        footer {
-                                                                                                                                                                                                                                                                                                                                                                                    text-align: center;
-                                                                                                                                                                                                                                                                                                                                                                                                margin-top: 20px;
-                                                                                                                                                                                                                                                                                                                                                                                                            padding: 10px 15px;
-                                                                                                                                                                                                                                                                                                                                                                                                                        background-color: #333;
-                                                                                                                                                                                                                                                                                                                                                                                                                                    color: #fff;
-                                                                                                                                                                                                                                                                                                                                                                                                                                            }
-                                                                                                                                                                                                                                                                                                                                                                                                                                                </style>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                </head>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                <body>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                    <header>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                            <h1>The Dangers of Scanning Unknown QR Codes</h1>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                </header>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <section>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <h2>What Are QR Codes?</h2>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <p>QR codes (Quick Response codes) are two-dimensional barcodes that can store information like website URLs, contact details, or Wi-Fi credentials. They are convenient and widely used for quick access to information.</p>
+        <title>The Dangers of Scanning Unknown QR Codes</title>
+        <style>
+                body {
+                        font-family: Arial, sans-serif;
+                        line-height: 1.6;
+                        margin: 0;
+                        padding: 0;
+                        background-color: #f4f4f9;
+                        color: #333;
+                }
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <h2>Why You Should Be Cautious</h2>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <p>While QR codes are convenient, they can also pose security risks. Scanning an unknown QR code can lead to:</p>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <ul>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <li>Accessing malicious websites that steal your data.</li>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <li>Triggering unintended actions like sending emails, making payments, or sharing personal information.</li>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <li>Installing malware or tracking software on your device.</li>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        </ul>
+                header {
+                        background-color: #333;
+                        color: #fff;
+                        padding: 10px 15px;
+                        text-align: center;
+                }
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <h2>How This Relates to Unknown Links</h2>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <p>QR codes are essentially shortcuts to links. The dangers of clicking unknown links apply to scanning unknown QR codes:</p>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <ul>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li>If you don’t trust the source of the QR code, you shouldn’t scan it.</li>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <li>Verify the URL preview (if your scanner shows one) before proceeding.</li>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <li>Be wary of QR codes in public places or sent by unknown individuals.</li>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </ul>
+                section {
+                        max-width: 800px;
+                        margin: 20px auto;
+                        padding: 20px;
+                        background: #fff;
+                        border-radius: 8px;
+                        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                }
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <h2>Protect Yourself</h2>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <p>Here are some simple tips to stay safe:</p>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <ul>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <li>Use a QR code scanner that checks URLs for security threats.</li>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li>Never scan QR codes from suspicious or unverified sources.</li>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <li>Enable URL previews to see where the QR code leads before opening it.</li>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </ul>
+                h1,
+                h2 {
+                        color: #444;
+                }
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <p>For more information about online safety, check out <a href="https://staysafeonline.org/stay-safe-online/" target="_blank">Stay Safe Online</a>.</p>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </section>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <footer>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <p>&copy; 2025 SafeTech Awareness</p>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </footer>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </body>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </html>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+                a {
+                        color: #1e90ff;
+                        text-decoration: none;
+                }
+
+                a:hover {
+                        text-decoration: underline;
+                }
+
+                footer {
+                        text-align: center;
+                        margin-top: 20px;
+                        padding: 10px 15px;
+                        background-color: #333;
+                        color: #fff;
+                }
+        </style>
+</head>
+
+<body>
+        <header>
+                <h1>The Dangers of Scanning Unknown QR Codes</h1>
+        </header>
+        <section>
+                <h2>What Are QR Codes?</h2>
+                <p>QR codes (Quick Response codes) are two-dimensional barcodes that can store information like website
+                        URLs, contact details, or Wi-Fi credentials. They are convenient and widely used for quick
+                        access to information.</p>
+
+                <h2>Why You Should Be Cautious</h2>
+                <p>While QR codes are convenient, they can also pose security risks. Scanning an unknown QR code can
+                        lead to:</p>
+                <ul>
+                        <li>Accessing malicious websites that steal your data.</li>
+                        <li>Triggering unintended actions like sending emails, making payments, or sharing personal
+                                information.</li>
+                        <li>Installing malware or tracking software on your device.</li>
+                </ul>
+
+                <h2>How This Relates to Unknown Links</h2>
+                <p>QR codes are essentially shortcuts to links. The dangers of clicking unknown links apply to scanning
+                        unknown QR codes:</p>
+                <ul>
+                        <li>If you don’t trust the source of the QR code, you shouldn’t scan it.</li>
+                        <li>Verify the URL preview (if your scanner shows one) before proceeding.</li>
+                        <li>Be wary of QR codes in public places or sent by unknown individuals.</li>
+                </ul>
+
+                <h2>Protect Yourself</h2>
+                <p>Here are some simple tips to stay safe:</p>
+                <ul>
+                        <li>Use a QR code scanner that checks URLs for security threats.</li>
+                        <li>Never scan QR codes from suspicious or unverified sources.</li>
+                        <li>Enable URL previews to see where the QR code leads before opening it.</li>
+                </ul>
+
+                <p>For more information about online safety, check out <a
+                                href="https://staysafeonline.org/stay-safe-online/" target="_blank">Stay Safe
+                                Online</a>.</p>
+
+                <p>Share with your friends <a href="assets/qr.png">here</a>.</p>
+        </section>
+        <footer>
+                <p>&copy; 2025 SafeTech Awareness</p>
+        </footer>
+</body>
+
+</html>
